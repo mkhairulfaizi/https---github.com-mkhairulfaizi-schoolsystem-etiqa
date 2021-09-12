@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS course (
+    id INT NOT NULL AUTO_INCREMENT,
+    code VARCHAR(100),
+    name VARCHAR(100),
+    PRIMARY KEY (id)
+)
